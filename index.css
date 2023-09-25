@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    background: url("photo_2023-09-25_09-33-45.jpg");
+    backdrop-filter: brightness(60%);
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+p {
+    margin: 0;
+    font-size: 13px;
+}
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
